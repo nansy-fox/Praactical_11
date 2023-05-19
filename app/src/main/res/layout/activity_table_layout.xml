@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:scrollbars="none">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Table_layout">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="?attr/colorPrimaryVariant">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="?attr/colorPrimaryVariant"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Андрей Самойлов"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimaryVariant">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Людмила Степанова"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimaryVariant">
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Бульдог "
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimaryVariant">
+        <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Анжелика Котова"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimaryVariant">
+        <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="АНгелина Иванова"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimaryVariant">
+        <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Эдеонора Пеле"
+                android:textColor="@color/black" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="?attr/colorPrimaryVariant">
+        <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Александра Совуха"
+                android:textColor="@color/black" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="?attr/colorPrimaryVariant">
+        <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/avatar" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="293dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Екатерина Бугрова"
+                android:textColor="@color/black" />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
